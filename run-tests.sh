@@ -9,4 +9,4 @@
 pydocstyle citeproc_styles && \
 isort -rc -c -df **/*.py && \
 check-manifest --ignore ".travis-*" && \
-python setup.py test
+python -m pytest
